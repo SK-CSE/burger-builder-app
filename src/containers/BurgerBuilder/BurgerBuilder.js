@@ -5,20 +5,20 @@ import Modal from '../../components/UI/Modal/Modal'
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary'
 import BuildControls from '../../components/Burger/BuildControls/BuildControls'
 const INGREDIENT_PRICES = {
-    salad: 0.5,
-    bacon: 0.7,
-    cheese: 0.4,
-    meat: 1.3
+    salad: 5,
+    vegtikki: 8,
+    cheese: 10,
+    chicken: 13
 }
 export default class BurgerBuilder extends Component {
     state = {
         ingredients: {
             salad: 0,
-            bacon: 0,
+            vegtikki: 0,
             cheese: 0,
-            meat: 0
+            chicken: 0
         },
-        totalPrice : 4,
+        totalPrice : 40,
         purchasable: false,
         purchasing: false
     }

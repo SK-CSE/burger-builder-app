@@ -81,7 +81,7 @@
   }
   
 
-.Meat {
+.Chicken {
     width: 80%;
     height: 8%;
     background: linear-gradient(#7f3608, #702e05);
@@ -105,7 +105,7 @@
     border-radius: 20px;
 }
 
-.Bacon {
+.Vegtikki {
     width: 80%;
     height: 3%;
     background: linear-gradient(#bf3813, #c45e38);
